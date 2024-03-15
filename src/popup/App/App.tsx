@@ -1,11 +1,11 @@
 import React from 'react'
-import './App.css'
-import { Counter } from '../Counter'
+import styles from './app.module.scss'
+import { TodoList } from '../TodoList'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Counter />
+    <div className={styles.app}>
+      <TodoList />
     </div>
   )
 }

@@ -1,0 +1,30 @@
+@import '../../../public/styles/index.scss';
+
+.textarea {
+    width: 100%;
+    padding: 0.625rem;
+    border: none;
+    border-radius: 0.75rem;
+    resize: none;
+    outline: none;
+    height: 6.25rem;
+}
+
+.editBtn {
+    padding: 0.5rem 1.25rem;
+    border: none;
+    background-color: $carnation;
+    border-radius: 0.625rem;
+    color: $white;
+    cursor: pointer;
+    margin-top: 0.75rem;
+
+    &:disabled {
+        opacity: 0.6;
+    }
+}
+
+.goBack {
+    margin-bottom: 0.75rem;
+    cursor: pointer;
+}

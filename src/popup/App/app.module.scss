@@ -1,0 +1,8 @@
+@import '../../../public/styles/index.scss';
+
+.app {
+  box-sizing: border-box;
+  background-color: $porcelain;
+  overflow-y: auto;
+  width: 22.5rem;
+}
