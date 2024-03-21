@@ -2,8 +2,7 @@ const { override } = require('customize-cra')
 
 const overrideEntry = (config) => {
   config.entry = {
-    main: './src/popup', // the extension UI
-    background: './src/background',
+    main: './src/popup',
     content: './src/content',
   }
 
